@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Ruthligos Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Ruthligos Regular'), url('Ruthligos.woff') format('woff');
+    }
+    body{
+        background-color:#f6f2ed;
+        margin:0;
+    }
+#navbar{
+    background-color:#F6F2ED;
+    width:100%;
+    top:0;
+    position:fixed;
+    z-index: 2000;
+    height: 90px;
+}
+.main{
+    bottom:100px;
+    
+}
+.ccontainer{
+size:110%
+}
+.responsive{
+    max-width: 100%;
+    height: auto;
+}
+.responsiveg{
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin:0 auto;
+}
+.divfntgrnd5{
+    font-family:"Ruthligos Regular";
+    font-size:32px;
+color:#2d2d2d ;
+text-decoration: none;
+
+}
+.logo{
+    float: left;
+    top:0px;
+    padding:1%;
+    color: #2d2d2d;	
+    margin-left:20px;
+    padding-top: 1%;
+}
+.navbartopo1{
+        
+    float: right;
+    top:10px;
+    padding:1%;
+    color: #2d2d2d;	
+    margin-left:20px;
+    padding-top: 1%;
+}
+.navbartopo2{
+    
+float: right;
+top:10px;
+padding:1%;
+color: #2d2d2d;	
+margin-left:20px;
+padding-top: 1%;
+margin-right:3%;
+}
+.divfntgrnd
+{
+font-size:32px;
+text-decoration-color:#2d2d2d ;
+text-decoration: none;
+font-weight: ;
+}
+.divfntgrnd3 
+    {
+    font-size:19px;
+    text-decoration-color:#2d2d2d ;
+    text-decoration: none;
+    }
+    .divfntgrnd2 
+    {
+    font-size:25px;
+    text-decoration-color:#2d2d2d ;
+    text-decoration: none;
+    top:0px;
+    }
+    .divfntgrnd21 
+    {
+    font-size:25px;
+    text-decoration-color:#F6F2ED ;
+    text-decoration: none;
+    top:0px;
+    }
+    .bold{
+        font-weight: bolder;
+    }
+a{
+	display: block;
+	
+}
+a span {
+    display: none; /* Aqui você define que todo SPAN que estiver dentro de um A estará invisível */
+}
+a:hover span {
+    display: block; /* Tranforma o SPAN em um elemento do tipo bloco */
+	position: absolute; /* Para você poder posicionar a vontade, sem quebrar o layour em volta */
+    top: 0; /* Para ficar na mesma altura do link */
+}
+a.exe1:hover,a.exe1:active{
+    color: #eb6114;
+    text-decoration: none;
+}
+.arroz{
+    padding-left:0px !important;
+    
+}
+/*body*/
+.hi{
+    margin-top: 70px;
+}
+.hi{
+    margin-top: 20px;
+}
