@@ -731,3 +731,19 @@ font-size:30px;
                 height: 2014px;
             }
 }
+@media only screen and (max-width:1024px){
+    .container12 {
+        display: grid;
+        align-items: left;
+        height: 450px;
+        grid: 50% / auto auto auto auto;
+        grid-gap: none;
+        background-color: none;
+        width: 370px;
+        position: relative;
+        margin-top: -50%;
+        left: -7%;
+}
+}
+
+
